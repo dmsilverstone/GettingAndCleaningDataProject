@@ -8,25 +8,25 @@ The data used for the project relates to wearable computing, one of the most exc
 
 ## R Version
 All scripts and datasets contained within this project have been created and run using R version 3.4.0, under a 64-bit Windows operating platform.
-In order to run the scripts contained within this repo, the only additional R packages required are `dplyr` and ...
+In order to run the scripts contained within this repo, the only additional R packages required is `dplyr`.
 
 ## Dataset source
 The raw data for this project can be downloaded from
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
-This data should be downloaded and unzipped into the R working directory before running any scripts.
 
 ## Project Structure
 The R code file [run_analysis.R](https://github.com/dmsilverstone/GettingAndCleaningDataProject/blob/master/run_analysis.R) contains the script required to transform the raw data as downloaded above into the final tidy dataset, [TidyData.txt](https://github.com/dmsilverstone/GettingAndCleaningDataProject/blob/master/TidyData.txt).
 
 The main steps in this file are:
 
-1. Read in the train and test datasets and merge to form a single dataset
-2. Extract only the measurements on the mean and standard deviation for each measuremnt
-3. Apply desciptive activity names to name the activities in the dataset
-4. Appropriately labels the data set with descriptive variable names
-5. Creates the tidy data set TidyData.txt, containing the average for each variable for each activity and each subject
+1. Download and unzip the dataset into the working directory if it does not already exist
+2. Read in the train and test datasets and merge to form a single dataset
+3. Extract only the measurements on the mean and standard deviation for each measuremnt
+4. Apply desciptive activity names to name the activities in the dataset
+5. Appropriately labels the data set with descriptive variable names
+6. Creates the tidy data set TidyData.txt, containing the average for each variable for each activity and each subject
 
 The final data set is 'tidy' as per the general principles of tidy data as descibed in [this paper](http://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham.
 
-The R Markdown file [CodeBook.md](https://github.com/dmsilverstone/GettingAndCleaningDataProject/blob/master/CodeBook.md) contains further information about the data, including variable descriptions, units, and transformations performed on the raw data.
+The R Markdown file [CodeBook.md](https://github.com/dmsilverstone/GettingAndCleaningDataProject/blob/master/CodeBook.md) contains further information about the data, including details of the raw data files, variable descriptions, and transformations performed on the raw data.
