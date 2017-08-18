@@ -1,4 +1,14 @@
-#setwd("H:/GettingAndCleaningDataProject")
+############
+## 00 Setup
+############
+
+## Load required package: dplyr
+# If not already installed then do so
+if (!"dplyr" %in% installed.packages()) {
+  install.packages("dplyr")
+}
+# Load package
+library(dplyr)
 
 ##############################################################
 ##1: Download and unzip the data if it does not already exist

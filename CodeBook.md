@@ -1,13 +1,8 @@
----
-title: "CodeBook"
-author: "David Silverstone"
-date: "18 August 2017"
-output: html_document
----
+# CodeBook
 
 This file describes the dataset [TidyData.txt](https://github.com/dmsilverstone/GettingAndCleaningDataProject/blob/master/TidyData.txt).  The experimental design and format of the raw data source is described, before describing all transformations that have been performed on this data to arrive at the final dataset.
 
-##Experimental Design
+## Experimental Design
 The data used in the project comes from an experiment carried out to recognise human activity using smartphones.
 
 The file `README.txt` within the source data provides the following description of the experiment and data recording process: 
@@ -20,7 +15,7 @@ A full description is available at the website where the data was initially obta
 
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
-##Raw data
+## Raw data
 The raw data for this project can be downloaded from
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
@@ -61,7 +56,7 @@ Again from the file `README.txt` contained within the source data, the following
 > - Features are normalized and bounded within [-1,1].
 > - Each feature vector is a row on the text file.
 
-##Required files
+## Required files
 Of the files within the source data that are listed above, only the following are required to create the final file: 
 
 * `subject_train.txt`
