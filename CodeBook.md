@@ -68,9 +68,9 @@ Of the files within the source data that are listed above, only the following ar
 * `activity_labels.txt`
 * `features.txt`
 
-Note that, while not required explicitly, the source data files `README.txt` and `features_info.txt` also contain information that will be useful to the reader.  Files within the `\/Inertial Signals\/` subfolders are not required.
+Note that, while not required explicitly, the source data files `README.txt` and `features_info.txt` also contain information that will be useful to the reader.  Files within the `\Inertial Signals\` subfolders are not required.
 
-##Transformations
+## Transformations
 To construct the final dataset, the following transformations were made on the raw data
 
 1. Combine files:
